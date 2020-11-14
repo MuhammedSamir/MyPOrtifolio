@@ -1,0 +1,679 @@
+ <!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Mohamed.S.Kassem Portiflio</title>
+         <!--animted Headline css-->
+         <link rel="stylesheet" href="css/animated.css" >
+        <!--bootstrap 4 css-->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!--fontAwesome 5.0.3 css-->
+        <link rel="stylesheet" href="css/fontAweasome.css" >
+        <!--owl css-->
+	    	<link rel="stylesheet" href="css/owl.carousel.min.css">
+		    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+        <!--WOW animated css-->
+	    	<link rel="stylesheet" href="css/animate.css">
+        <!--progresscircle-->
+        <link rel="stylesheet" href="css/progresscircle.css">
+        <!--main  css-->
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="icon" href="icon.svg">
+        
+    
+    </head>
+    <body  class="page">
+      <!--loader-->
+      <section id="loading">
+        <div class="spinner">
+          <div class="double-bounce1"></div>
+          <div class="double-bounce2"></div>
+        </div>
+      </section>
+      <!--loader-->
+       <!--satrt Navbar-->
+          <nav id="navbar"  class="navbar navbar-expand-lg navbar-light bg-light fixed-top pt-3 pb-3">
+            <div class="container">
+               <a class="navbar-brand" href="#">
+              <h3 class="logo-font my-0 py-0 text-uppercase logo ">M<i class="text-dark fas fa-cog fa-spin " aria-hidden="true"></i>Kassem</h3>
+                </a>
+              <button class="navbar-toggler" id="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="d-block line"></span>
+                <span class="d-block line"></span>
+                <span class="d-block line"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="nav">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link " href="#banner" onclick="removeShow()">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " onclick="removeShow()" href="#portfolio">Portfolio</a>
+                   </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link " onclick="removeShow()" href="#skills">Skills</a>
+                   </li>
+                 
+                  <li class="nav-item">
+                      <a class="nav-link " onclick="removeShow()" href="#about"> About</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          
+      <!--end Navbar-->
+      <!--start Banner-->
+      <section class="jumbotron bg-after banner mb-0 bg-white jumbotron-fluid" id="banner">
+       <a href="#portfolio" class="position-absolute scroll-dowen"><i class="fas fa-long-arrow-alt-down"></i></a>
+        <div class="container">
+          <div class="banner-container">
+          <div class="row">
+            <div class="col-lg-8 col-md-7 col-sm-8 d-flex align-items-center">
+              <section class="cd-intro wow slideInLeft" data-wow-delay="0.8s">
+                <h3 class="font-weight-bold hello border-text text-left">Hello I'm</h3>
+                <h1 class="text-capitalize text-left name">Mohamed Kassem</h1>
+                <h4 class="cd-headline rotate-1 text-left">
+                   <span >Junior</span>
+                   <span class="cd-words-wrapper">
+                      <b class="is-visible">Front End Developer</b>
+                      <b>Web Designer</b>
+                   </span>
+                </h4>
+             </section>
+            </div>
+            <div class="col-lg-4 col-md-5 col-sm-4">
+              <div class="personal-img animation-img mt-4 wow slideInRight"  data-wow-delay="0.5s">
+                <img class="img-fluid " src="img/me2.jpg" />
+              </div>
+            </div>
+           
+          </div>
+         
+            
+          </div>
+        </div>
+      </section>
+      <!--end Banner-->
+       <!--start-portifolio-->
+       <section class="portfolio p-50 " id="portfolio">
+        <div class="container">
+          
+            
+            <div class="row mt-5">
+              <div class="col-12 col-sm-12 col-md-3 col-lg-6">
+                <h2 class="main-head mb-0 my-3  wow bounceInUp"><span class="name-span  " > Featured Works</span><span class="about-md ">portfolio</span> 
+                  <span class="text-bg text-uppercase" >portfolio</span>
+                </h2>
+              </div>
+              <div class="col-12 col-sm-12 col-md-9 col-lg-6">
+                  <ul class="filters list-inline mb-0 text-center">
+                      <li class="list-inline-item  mb-2 active"  data-filter="*" >
+                          <a class="btn bg-transparent  text-capitalize font-italic" href="#">All</a>
+                      </li>
+                        <li class="list-inline-item  mb-2"  data-filter=".react" >
+                          <a class="btn bg-transparent text-capitalize font-italic" href="#">React </a>
+                      </li>
+                       <li class="list-inline-item  mb-2"  data-filter=".bootstrap4" >
+                          <a class="btn bg-transparent  text-capitalize font-italic" href="#">Bootstrap</a>
+                      </li>
+                        
+                      <li class="list-inline-item mb-2"  data-filter=".design" >
+                          <a class="btn bg-transparent text-capitalize font-italic" href="#">Design</a>
+                      </li>  
+                      <li class="list-inline-item mb-2"  data-filter=".Html5" >
+                        <a class="btn bg-transparent text-capitalize font-italic" href="#">Html5</a>
+                    </li>        
+                  </ul>
+              </div>  
+          </div>
+          <div class="projects">
+              <div class="row  mt-5 ">
+                
+                  <div class="col-lg-3 col-xl-4 col-md-6  item bootstrap4 design">
+                      <div class="card ">
+                        <div class="to-details  position-absolute">
+                          <span class="fas fa-long-arrow-alt-left"></span>
+                        </div>
+                          <img class="card-img" src="img/cannscreens/after.png" />  
+                          <button type="button"  data-toggle="modal" data-target="#cannaModal" class="card-img-overlay  d-flex justify-content-center shadow-sm bg-main-light modal-btn align-items-center ">
+                           <div>
+                            <h6 class="card-title text-capitalize">Canna clinc System</h6>
+                            <span class=" text-capitalize">more Details <i class="fas fa-long-arrow-alt-right"></i></span>
+                           </div>
+                           
+                          </button>
+                        </div>                        
+                  </div>
+                  <div class="col-lg-3 col-xl-4 col-md-6 item bootstrap4 design">
+                    <div class="card ">
+                      <div class="to-details  position-absolute">
+                        <span class=" fas fa-long-arrow-alt-left"></span>
+                      </div>
+                        <img class="card-img" src="img/Doctors/Doctors Previo.png" />  
+                        <button type="button"  data-toggle="modal" data-target="#DoctorModal" class="card-img-overlay  d-flex justify-content-center shadow-sm bg-main-light modal-btn align-items-center ">
+                         <div>
+                          <h6 class="card-title  text-capitalize">Doctors Mobile App</h6>
+                          <span class=" text-capitalize">more Details <i class="fas fa-long-arrow-alt-right"></i></span>
+                         </div>
+                         
+                        </button>
+                      </div>                        
+                  </div>
+                  <div class="col-lg-3 col-xl-4 col-md-6 item Html5 design">
+                    <div class="card foods">
+                      <div class="to-details  position-absolute">
+                        <span class=" fas fa-long-arrow-alt-left"></span>
+                      </div>
+                        <img class="card-img" src="img/foods/foodbg.jpg" />  
+                        <div   class="card-img-overlay  d-flex justify-content-center shadow-sm bg-main-light modal-btn align-items-center ">
+                         <div>
+                            <h6 class="card-title  text-capitalize">foods</h6>
+                            <a href=""></a>
+                            <ul class="list-inline social">
+                              <li class="list-inline-item"><a class="gitHub" target="_blank" href="https://github.com/MuhammedSamir/fooodsonline"><i class="fab fa-github"></i></a></li>
+                              <li class="list-inline-item text-capitalize"><a class="livePreview rounded-pill" target="_blank" href="https://amazing-murdock-6e4b3c.netlify.app/">live preview</a></li>
+                            </ul>
+                         </div>
+                        </div>
+                      </div>                        
+                  </div>
+                  <div class="col-lg-3 col-xl-4 col-md-6 item Html5 design">
+                    <div class="card foods">
+                      <div class="to-details  position-absolute">
+                        <span class=" fas fa-long-arrow-alt-left"></span>
+                      </div>
+                        <img class="card-img" src="img/moreCreative.png" />  
+                        <div   class="card-img-overlay  d-flex justify-content-center shadow-sm bg-main-light modal-btn align-items-center ">
+                         <div>
+                            <h6 class="card-title  text-capitalize">More Creative</h6>
+                            <a href=""></a>
+                            <ul class="list-inline social">
+                              <li class="list-inline-item"><a class="gitHub" target="_blank" href="https://github.com/MuhammedSamir/moreCreative"><i class="fab fa-github"></i></a></li>
+                              <li class="list-inline-item text-capitalize"><a class="livePreview rounded-pill" target="_blank" href="https://app.netlify.com/sites/clever-engelbart-248fdf/overview">live preview</a></li>
+                            </ul>
+                         </div>
+                        </div>
+                      </div>                        
+                  </div>
+              
+               
+                  <div class="col-lg-3 col-xl-4 col-md-6 item react design">
+                    <div class="card foods react">
+                      <div class="to-details  position-absolute">
+                        <span class=" fas fa-long-arrow-alt-left"></span>
+                      </div>
+                        <img class="card-img" src="img/react.png" />  
+                        <div   class="card-img-overlay  d-flex justify-content-center shadow-sm bg-main-light modal-btn align-items-center ">
+                         <div>
+                            <h6 class="card-title  text-capitalize ">first React App </h6>
+                            <ul class="list-inline social">
+                              <li class="list-inline-item"><a class="gitHub" target="_blank" href="https://github.com/MuhammedSamir/React"><i class="fab fa-github"></i></a></li>
+                              <li class="list-inline-item text-capitalize"><a class="livePreview rounded-pill" target="_blank" href="https://thirsty-mayer-a4526d.netlify.app/?fbclid=IwAR0u0zZ6wO3kvr_F-oemKBNZePtbS_JdDyuPqSn5cL8QOYU6qVCEcCnuUsw">live preview</a></li>
+                            </ul>
+                         </div>
+                        </div>
+                      </div>                        
+                  </div>
+                  <div class="col-lg-3 col-xl-4 col-md-6 item bootstrap4 design">
+                    <div class="card ">
+                      <div class="to-details  position-absolute">
+                        <span class="fas fa-long-arrow-alt-left"></span>
+                      </div>
+                        <img class="card-img" src="img/m3nsoft/After.png" />  
+                        <button type="button"  data-toggle="modal" data-target="#ma3nsoft" class="card-img-overlay  d-flex justify-content-center shadow-sm bg-main-light modal-btn align-items-center ">
+                         <div>
+                          <h6 class="card-title text-capitalize">ma3n soft</h6>
+                          <span class=" text-capitalize">more Details <i class="fas fa-long-arrow-alt-right"></i></span>
+                         </div>
+                         
+                        </button>
+                      </div>                        
+                  </div>
+                  <div class="col-lg-3 col-xl-4 col-md-6 item bootstrap4 design">
+                  <div class="card foods">
+                    <div class="to-details  position-absolute">
+                      <span class=" fas fa-long-arrow-alt-left"></span>
+                    </div>
+                      <img class="card-img" src="img/education/eduction.png" />  
+                      <div   class="card-img-overlay  d-flex justify-content-center shadow-sm bg-main-light modal-btn align-items-center ">
+                       <div>
+                          <h6 class="card-title  text-capitalize">online Exames</h6>
+                          <ul class="list-inline social">
+                            <li class="list-inline-item text-capitalize"><a class="livePreview  rounded-pill" target="_blank" href="https://sad-lamport-f4f250.netlify.app/">live preview</a></li>
+                          </ul>
+                       </div>
+                      </div>
+                    </div>                        
+                  </div>
+                  <div class="col-lg-3 col-xl-4 col-md-6 item bootstrap4 design">
+                  <div class="card foods">
+                    <div class="to-details  position-absolute">
+                      <span class=" fas fa-long-arrow-alt-left"></span>
+                    </div>
+                      <img class="card-img" src="img/companyPortiflio.png" />  
+                      <div   class="card-img-overlay  d-flex justify-content-center shadow-sm bg-main-light modal-btn align-items-center ">
+                       <div>
+                          <h6 class="card-title  text-capitalize">Landing Page</h6>
+                         
+                          <ul class="list-inline social">
+                            <li class="list-inline-item text-capitalize"><a class="livePreview  rounded-pill" target="_blank" href="https://gallant-visvesvaraya-2ecd19.netlify.app/">live preview</a></li>
+                          </ul>
+                       </div>
+                      </div>
+                    </div>                        
+                  </div>
+                  <div class="col-lg-3 col-xl-4 col-md-6 item bootstrap4 design">
+                    <div class="card foods">
+                      <div class="to-details  position-absolute">
+                        <span class=" fas fa-long-arrow-alt-left"></span>
+                      </div>
+                        <img class="card-img" src="img/CV.png" />  
+                        <div   class="card-img-overlay  d-flex justify-content-center shadow-sm bg-main-light modal-btn align-items-center ">
+                         <div>
+                            <h6 class="card-title  text-capitalize">personal Cv</h6>
+                           
+                            <ul class="list-inline social">
+                              <li class="list-inline-item text-capitalize"><a class="livePreview  rounded-pill" target="_blank" href="https://app.netlify.com/sites/silly-tesla-df46bf/overview">live preview</a></li>
+                            </ul>
+                         </div>
+                        </div>
+                      </div>                        
+                  </div>
+                  <div class="col-lg-3 col-xl-4 col-md-6 item bootstrap4">
+                    <div class="card foods">
+                      <div class="to-details  position-absolute">
+                        <span class=" fas fa-long-arrow-alt-left"></span>
+                      </div>
+                        <img class="card-img" src="img/HospitalPortflio.png" />  
+                        <div   class="card-img-overlay  d-flex justify-content-center shadow-sm bg-main-light modal-btn align-items-center ">
+                         <div>
+                            <h6 class="card-title  text-capitalize">Doctor Profile</h6>
+                            <a href=""></a>
+                            <ul class="list-inline social">
+                              <li class="list-inline-item"><a class="gitHub" target="_blank" href="https://github.com/MuhammedSamir/DoctorPorfile"><i class="fab fa-github"></i></a></li>
+                              <li class="list-inline-item text-capitalize"><a class="livePreview rounded-pill" target="_blank" href="https://dreamy-murdock-dde730.netlify.app/">live preview</a></li>
+                            </ul>
+                         </div>
+                        </div>
+                      </div>                        
+                  </div>
+                  <div class="col-lg-3 col-xl-4 col-md-6 item bootstrap4">
+                    <div class="card foods">
+                      <div class="to-details  position-absolute">
+                        <span class=" fas fa-long-arrow-alt-left"></span>
+                      </div>
+                        <img class="card-img" src="img/portfolio.jpg" />  
+                        <div   class="card-img-overlay  d-flex justify-content-center shadow-sm bg-main-light modal-btn align-items-center ">
+                         <div>
+                            <h6 class="card-title  text-capitalize">PORTFOLIO</h6>
+                            <a href=""></a>
+                            <ul class="list-inline social">
+                              <li class="list-inline-item text-capitalize"><a class="livePreview rounded-pill" target="_blank" href="https://epic-turing-e7b964.netlify.app/indexdark.html">live preview</a></li>
+                            </ul>
+                         </div>
+                        </div>
+                      </div>                        
+                  </div>
+              
+               
+              
+              </div>
+          </div>
+        </div>
+       
+        </div>
+        <!--portiflio modals-->
+        <!-- Modals -->
+        <!--1.Canna Modal-->
+        <div class="modal rounded-0 fade" id="cannaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog rounded-0  modal-xl">
+            <div class="modal-content rounded-0  bg-after">
+              <div class="modal-header rounded-0">
+                <h5 class="main-head mb-0 my-3"><span class="name-span">Canna System</span><span class="about-md ">Canna System</span> 
+                  <span class="text-bg text-uppercase">Details </span>
+                  </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body rounded-0 bg-after">
+                <div class="after-cont">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <div class="card Res-card">
+                        <h5 class=" mb-4"> <span class="position-relative">Responsibilities</span> </h5>
+                        <div class="card-body  py-1 pl-0">
+                          <ul class="pl-0 resList list-unstyled">
+                            <li class="mb-2"><span class="fas fa-long-arrow-alt-right"></span> Maintain and improve  pages To be Responsive</li>
+                            <li class="mb-2"><span class="fas fa-long-arrow-alt-right"></span> Change Colors To be more Comfortble </li>
+                            <li class="mb-2"><span class="fas fa-long-arrow-alt-right"></span> Help Back-End Depelopers With Coding And Troubleshoting</li>
+                          </ul>
+                        
+                        </div>
+                      </div>
+                      
+                      <div class="card">
+                        <h5 class="position-absolute discription ">Befor</h5>
+                        <img class="img-fluid border" src="img/cannscreens/before.PNG" />
+                      </div>
+                     
+                     
+
+                    </div>
+                  
+                    <div class="col-lg-6">
+                      <div class="card">
+                        <h5 class="position-absolute discription bg-new">After</h5>
+                        <img class="img-fluid border" src="img/cannscreens/after.png" />
+                      </div>
+                      
+                      <div class="row">
+                        <div class="col-lg-8">
+                          <div class="card">
+                            <h5 class="position-absolute discription bg-new">Ipad</h5>
+                        <img class="img-fluid border" src="img/cannscreens/tablet.png" />
+                      </div>
+                      </div>
+                      <div class="col-lg-4">
+                          <div class="card">
+                            <h5 class="position-absolute discription bg-new">mobile</h5>
+
+                        <img class="img-fluid border" src="img/cannscreens/mobile.png" />
+                      </div>
+                      </div>
+                      </div>
+                    </div>
+                  
+                
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <!--2.Doctor Modal-->
+        <div class="modal rounded-0 fade" id="DoctorModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog rounded-0">
+            <div class="modal-content rounded-0  bg-after">
+              <div class="modal-header rounded-0">
+                <h5 class="main-head mb-0 my-1"><span class="name-span">Doctors Mobile App</span><span class="about-md ">Doctors Mobile App</span> 
+                  <span class="text-bg text-uppercase">Details </span>
+                  </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body rounded-0 bg-after">
+                <div class="after-cont">
+                  
+                  <div class="row">
+                  
+                   
+                    <div class="col-12">
+                      <div class="card border-0 bg-transparent shadow-none text-center">
+                        <h5 class=" mb-2"> <span class="position-relative">Responsibilities</span> </h5>
+                        <div class="card-body  py-1 pl-0">
+                          <ul class="pl-0 resList list-unstyled">
+                            <li class=""> Make a design suitable for mobile only</li>
+                          </ul>
+                        
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="col-12">
+                      <div class="owl-carousel owl-theme owl-doctors">
+                        <div class="item">
+                           <img class="img-fluid" src="img/Doctors/One.png" />
+                        </div>
+                        <div class="item">
+                          <img class="img-fluid" src="img/Doctors/Two.png" />
+                        </div>
+                        <div class="item">
+                          <img class="img-fluid" src="img/Doctors/Three.png" />
+                        </div>
+                        <div class="item">
+                          <img class="img-fluid" src="img/Doctors/Four.png" />
+                        </div>
+                        <div class="item">
+                          <img class="img-fluid" src="img/Doctors/Five.png" />
+                        </div>
+                        <div class="item">
+                          <img class="img-fluid" src="img/Doctors/six.png" />
+                        </div>
+                        <div class="item">
+                          <img class="img-fluid" src="img/Doctors/seven.png" />
+                        </div>
+                        <div class="item">
+                          <img class="img-fluid" src="img/Doctors/Eight.png" />
+                        </div>
+                        <div class="item">
+                          <img class="img-fluid" src="img/Doctors/Nine.png" />
+                        </div>
+                        <div class="item">
+                          <img class="img-fluid" src="img/Doctors/ten.png" />
+                        </div>
+                       
+                      </div>
+                    </div>
+                  
+                
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+         <!--3.Ma3n Soft Modal-->
+         <div class="modal rounded-0 fade" id="ma3nsoft" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog rounded-0  modal-xl">
+            <div class="modal-content rounded-0  bg-after">
+              <div class="modal-header rounded-0">
+                <h5 class="main-head mb-0 my-3"><span class="name-span">ma3n Soft</span><span class="about-md ">Canna System</span> 
+                  <span class="text-bg text-uppercase">Details </span>
+                  </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body rounded-0 bg-after">
+                <div class="after-cont">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <div class="card Res-card">
+                        <h5 class=" mb-4"> <span class="position-relative">Responsibilities</span> </h5>
+                        <div class="card-body  py-1 pl-0">
+                          <ul class="pl-0 resList list-unstyled">
+                            <li class="mb-2"><span class="fas fa-long-arrow-alt-right"></span> Maintain and improve  pages To be Responsive</li>
+                            <li class="mb-2"><span class="fas fa-long-arrow-alt-right"></span> Change Colors To be more Comfortble </li>
+                            <li class="mb-2"><span class="fas fa-long-arrow-alt-right"></span> Upgrade from bootstrap 3 to 4</li>
+                          </ul>
+                        
+                        </div>
+                      </div>
+                      
+                      <div class="card">
+                        <h5 class="position-absolute discription ">Befor</h5>
+                        <img class="img-fluid border" src="img/m3nsoft/Befor.png" />
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="card">
+                        <h5 class="position-absolute discription bg-new">After</h5>
+                        <img class="img-fluid border" src="img/m3nsoft/After.png" />
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <ul class="list-inline social text-center">
+                        <li class="list-inline-item text-center text-capitalize my-3"><a class="livePreview rounded-pill" target="_blank" href="http://ma3nsoft.com/en/Default">live preview</a></li>
+                      </ul>
+                    </div>
+                  
+                
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+    </section>
+    <!--end-portifolio-->
+     
+      <!--start-skills-->
+      <section class="skills p-50 bg-main-light" id="skills">
+        <div class="container">
+          <h2 class="main-head mb-0 my-3 wow bounceInUp"><span class="name-span">Technical </span><span class="about-md ">Technical Skills</span> 
+            <span class="text-bg text-uppercase">Skills</span>
+            </h2>
+            <div class="row pt-lg-5 ">
+              <div class="col-sm-12">
+                  <div class="my-4">
+                    <div class="d-flex justify-content-between my-2">
+                        <span>React / Es-6</span>
+                        <span>40%</span>
+                    </div>
+                    <div class="progress" style="height: 10px;">
+                        <div class="progress-bar bg-dark react" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>   
+                </div>
+                <div class="my-4">
+                  <div class="d-flex justify-content-between my-2">
+                      <span>JavaScript </span>
+                      <span>60%</span>
+                  </div>
+                  <div class="progress" style="height: 10px;">
+                      <div class="progress-bar bg-dark javaScript" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>   
+              </div>
+              <div class="my-4">
+                <div class="d-flex justify-content-between my-2">
+                    <span>jQuery</span>
+                    <span>70%</span>
+                </div>
+                <div class="progress" style="height: 10px;">
+                    <div class=" progress-bar bg-dark jQuery" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>   
+            </div>
+              <div class="my-4">
+                <div class="d-flex justify-content-between my-2">
+                    <span>Bootstrap</span>
+                    <span>95%</span>
+                </div>
+                <div class="progress" style="height: 10px;">
+                    <div class="progress-bar bg-dark bootstrap4" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>   
+               </div>
+                  <div class="my-4">
+                      <div class="d-flex justify-content-between my-2">
+                          <span>Html5 / Css3</span>
+                          <span>85%</span>
+                      </div>
+                      <div class="progress" style="height: 10px;">
+                          <div class="progress-bar bg-dark html" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>   
+                  </div>
+              </div>
+                
+            </div>
+        </div>
+
+    </section>
+    <!--end-skills-->
+     <!--start About-->
+     <section class="about p-50" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-5 ">
+            <div class="aBout-img">
+               <img class="img-fluid  wow bounceInUp" src="img/me1.jpg">
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-7">
+            <h2 class="main-head mb-0 my-3  wow bounceInUp"><span class="name-span">Mohamed Kassem</span><span class="about-md ">About</span> 
+              <span class="text-bg text-uppercase"> About</span>
+              </h2>
+             
+              <p class="main-p about-p pt-lg-5  pb-lg-4 text-dark">
+                I'm Front-End Developer at <a class="font-weight-bold work" href="https://www.linkedin.com/company/ma3n-soft/">ma3nsoft</a> With One Year  Experience, Html ,Css And Java Script . I Create Successful Websites That Are Fast, Easy To Use, And Built With Best Practices.
+              </p>
+              <div class="row info">
+                <div class="col-md-12 col-lg-6 col-sm-6 col-xl-6 ">
+                    <ul class="list-unstyled">
+                        <li class="font-weight-bold"><h6> Name:<span class="text-dark" > Mohamed Samir Kassem</span></h6></li>
+                        
+                        <li class="font-weight-bold"><h6 class=""> Job Title:<span> Frontend Developer</span></h6></li>
+                        <li class="font-weight-bold"><h6> Age:<span class="text-dark"> 28 Year</span></h6></li>
+                        
+                    </ul>
+                </div>
+                <div class="col-md-12 col-lg-6 col-sm-6 col-xl-6">
+                    <ul class="list-unstyled">
+                      <li class="font-weight-bold"><h6> E-mail:<span> <a class="text-dark" href="mailto:mohamed.kassem604@gmail.com">mohamed.kassem604@gmail.com</a> </span></h6></li>
+                       <li class="font-weight-bold"><h6> Location:<span>Mohandseen, Giza, Egypt</span></h6></li>
+                        <li class="font-weight-bold"><h6> mobile:<span> +201006882429 </span></h6></li>
+                    </ul>
+                </div>
+               </div>
+            <div class="row">
+             
+            <div class="col-md-12">
+              <a href="#" type="button" class="btn btn-main rounded-pill" download="">
+               <span> Download CV </span>
+              </a>
+            </div>
+            </div>
+          </div>
+        </div>
+         
+      </div>
+    </section>
+    <!--end About-->
+    <!--start footer-->
+    <footer class="py-2 text-center border-top">
+      <div class="container">
+      <div>
+        <a href="#" class="text-dark">&copy; 2020  <span>
+          <span class="logo-font my-0 py-0 text-uppercase logo ">M<i class="text-dark fas fa-cog fa-spin " aria-hidden="true"></i>Kassem</span>
+        </span> All Rights Reserved.</a>
+      </div>
+      <ul class="list-inline social mt-2 mt-md-0">
+        <li class="list-inline-item"><a class="gitHub" href="https://github.com/MuhammedSamir"><i class="fab fa-github"></i></a></li>
+        <li class="list-inline-item"><a class="facebook" href="https://www.facebook.com/mohamed.samer.1441"><i class="fab fa-facebook-f"></i></a> </li>
+        <li class="list-inline-item"><a class="linkedIn" href="https://www.linkedin.com/in/mohamed-samir-202780179/"> <i class="fab fa-linkedin-in"></i></a></li>
+      </ul>
+    </div>
+         
+    </footer>
+    <!--start footer-->
+   
+     <!--fontAweasome-->
+     <script src="js/fontaweasome.min.js"></script>
+     <!--jQuerry-->
+     <script src="js/jquery-3.2.1.min.js"></script>
+     <script src="js/poper.min.js"></script>
+     <!--bootstrap 4-->
+     <script src="js/bootstrap.min.js"></script>
+     <!--animted Headline-->
+     <script src="js/animated.js" ></script>
+     <!--owl script-->
+     <script src="js/owl.carousel.min.js"></script>
+     <!-- progresscircle-->
+     <script src="js/progresscircle.js"></script>
+     <!--Wow Script-->
+		<script src="js/wow.min.js"></script>
+    <!--iso top -filter- -->
+    <script src="js/isotope.pkgd.min.js"></script>
+     <!--main js-->
+     <script src="js/main.js"></script>
+        
+        
+    </body>
+
+</html>
